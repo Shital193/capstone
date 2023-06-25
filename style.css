@@ -1,0 +1,107 @@
+.top-section{
+    height:500px;
+    width: 100%;
+    background-image:url("https://www.springboard.com/blog/wp-content/uploads/2018/02/sb-blog-resume2.png");
+    background-size: cover;
+    padding-top: 100px;
+    text-align: center;
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    color: white;
+}
+.top-section>h2{
+    font-family: 'GFS Didot', serif;
+    color: white;
+}
+span{
+    text-decoration: underline;
+}
+
+.book{
+    height:200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+body{
+    text-align: center;
+    margin: 0px;
+}
+h2{
+    color:#47A992;
+    font-family: 'GFS Didot', serif;
+}
+.intro{
+    font-family: 'GFS Didot', serif;
+    width: 30%;
+    margin: auto;
+}
+p{
+    line-height: 2;
+}
+
+li{
+    list-style: none;
+    line-height: 2;
+}
+  .education{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'GFS Didot', serif;
+  }
+
+.web,.cooking{
+    width:500px;
+    text-align: left;
+    margin:30px 30px 100px 30px;
+}
+.gifcoder{
+    float:left;
+}
+.cook{
+    float:left;
+}
+.web{
+    float:left;
+}
+.cooking{
+    float:right;
+}
+.cooking>p , .web>p{
+    font-family:'GFS Didot', serif ;
+}
+.hrelement{
+    clear: both;
+}
+hr{
+    border:6px dotted #DDE6ED;
+    border-bottom: none;
+    width:4%;
+    margin:100px auto;
+}
+.Lastpara{
+    font-family: 'GFS Didot', serif;
+}
+button{
+    background-image:linear-gradient(to bottom,#79E0EE,#47A992);
+    height:50px;
+    width:200px;
+    font-size: 20px;
+    border-radius: 7px;
+    border:none;
+    margin: 50px auto 100px auto;
+}
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color:#47A992; 
+}
+footer{
+    padding: 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
